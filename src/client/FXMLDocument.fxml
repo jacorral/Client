@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="client.FXMLDocumentController">
+   <children>
+      <TextField fx:id="nameTextField" layoutX="79.0" layoutY="14.0" />
+      <TextField fx:id="messageTextField" layoutX="79.0" layoutY="40.0" />
+      <Text layoutX="24.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" />
+      <TextArea fx:id="messagesTextArea" layoutX="9.0" layoutY="74.0" prefHeight="120.0" prefWidth="304.0" />
+      <Text layoutX="15.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message:" />
+   </children>
+</AnchorPane>
